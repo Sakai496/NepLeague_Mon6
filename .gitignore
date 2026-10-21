@@ -15,7 +15,7 @@ wheels/
 # （※個人設定やキャッシュは除外、プロジェクト共有用設定だけ許可）
 .vscode/*
 !.vscode/settings.json
-!.vscode/recommendations.json
+!.vscode/extensions.json
 
 # OS-specific files
 .DS_Store
