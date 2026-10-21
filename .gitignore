@@ -1,0 +1,22 @@
+# Python / Virtual environment
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Build artifacts
+build/
+dist/
+wheels/
+*.egg-info/
+*.so
+
+# VSCode / Editor settings
+# （※個人設定やキャッシュは除外、プロジェクト共有用設定だけ許可）
+.vscode/*
+!.vscode/settings.json
+!.vscode/recommendations.json
+
+# OS-specific files
+.DS_Store
+Thumbs.db

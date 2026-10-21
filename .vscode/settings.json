@@ -1,0 +1,17 @@
+{
+    // VSCodeが仮想環境（.venv）を自動検知・選択するための設定（Mac/Win両対応）
+    "python.defaultInterpreterPath": "${workspaceFolder}/.venv/bin/python",
+    "python.analysis.autoImportCompletions": true,
+
+    // Mac(LF)とWindows(CRLF)での改行コード差異を解消
+    "files.eol": "\n",
+
+    // 不要なファイル（.venvや__pycache__）を検索結果から除外
+    "files.watcherExclude": {
+        "**/.git/objects/**": true,
+        "**/.git/subtree-cache/**": true,
+        "**/node_modules/*/**": true,
+        "**/.venv/**": true,
+        "**/__pycache__/**": true
+    }
+}
